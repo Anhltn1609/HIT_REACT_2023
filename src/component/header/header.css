@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Roboto+Slab:wght@300;400&display=swap');
+.Header {
+  .icon {
+    .icon_1 {
+      position: absolute;
+      width: 19.88px;
+      height: 19.88px;
+      left: 400px;
+      top: 74.83px;
+      background: #9c69e2;
+      border-radius: 20px;
+    }
+    .icon_2 {
+      position: absolute;
+      width: 19.88px;
+      height: 34.78px;
+      left: 428.82px;
+      top: 59.93px;
+      background: #f063b8;
+      border-radius: 20px;
+    }
+  }
+  .signin{
+    display: none;
+   margin-right: 0;
+    background: #9C69E2;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+  }
+  
+}
+.icon_2{
+  position: absolute;
+  width: 19.88px;
+  height: 34.78px;
+  left: 428.82px;
+  top: 59.93px;
+  background: #f063b8;
+  border-radius: 20px;
+
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Montserrat:wght@100;200;900&family=Noto+Serif:wght@400;700&family=Open+Sans&family=Roboto:wght@500&display=swap');
+
+.full-body {
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    transition: all 1s linear;
+    font-family: 'Noto Serif', sans-serif;
+    margin-bottom: 100px;
+}
+
+.full-body.show {
+    height: 100px;
+    background-color: rgb(31, 25, 25);
+    transition: all 1s linear;
+    background-image: none;
+}
+
+.toggle {
+    width: 6rem;
+    height: 3rem;
+    background-color: #636363;
+    top: 1rem;
+    margin-left: 80%;
+    position: relative;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.toggle.show {
+    background-color: rgba(95, 91, 91, 0.348);
+}
+
+.icon {
+    position: absolute;
+    width: 2.7rem;
+    top: .15rem;
+    height: 2.7rem;
+    left: .3rem;
+    border-radius: 50px;
+    background-color: aqua ;
+    transition: all .5s linear;
+}
+
+.icon.show {
+    
+    left:3rem;
+
+}
+
+.little-stories {
+    width: auto;
+    margin: 50px;
+    display: none;
+    transition: all 1s linear;
+}
+
+.little-stories.show {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 1s linear;
+}
